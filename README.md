@@ -1,5 +1,6 @@
 
-<h3 align="center">ClOnEL</h3>
+
+<h1 align="center">ClOnEL</h1>
 
 <div align="center">
 <strong>C</strong>ontinual <strong>L</strong>earning <strong>On</strong>tology-enhanced Biomedical <strong>E</strong>ntity <strong>L</strong>inking 
@@ -51,7 +52,8 @@ bash scripts/eval/ncbi_disease.sh
 - [ncbi-disease](https://huggingface.co/TCMLLM/CLOnEL-NCBI-Disease)
 - [bc5cdr-disease](https://huggingface.co/TCMLLM/CLOnEL-BC5CDR-Disease)
 - [bc5cdr-chemical](https://huggingface.co/TCMLLM/CLOnEL-BC5CDR-Chemical)
-- [COMETA-CF](https://huggingface.co/TCMLLM/CLOnEL-COMETA-CF)
-- [AAP](https://huggingface.co/TCMLLM/CLOnEL-AAP)
+- [cometa-cf](https://huggingface.co/TCMLLM/CLOnEL-COMETA-CF)
+- [aap](https://huggingface.co/TCMLLM/CLOnEL-AAP)
+- [sympel](https://huggingface.co/TCMLLM/CLOnEL-SYMPEL)
 
 To ensure the fairness of the experiments, we conducted rigorous experiments to validate our approach. The parameter settings followed those specified in the paper, allowing us to reproduce the reported results accurately. However, through a broader search in the parameter space, we discovered that certain parameter configurations could achieve better results than those reported in the paper. For instance, the value of `retrieve_step_ratio` or `tree_ratio` may impacts the results. Similarly, in the AAP task, modifying the `retrieve_func` method to `cosine` yielded a result of 90.1, compared to the reported result of 90.0 in the paper.
