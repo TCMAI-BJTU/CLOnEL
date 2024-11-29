@@ -64,6 +64,8 @@ bash scripts/naive.sh
 
 ### Trained models
 
+You can directly use our trained model for evaluation and prediction.
+
 - [ncbi-disease](https://huggingface.co/TCMLLM/CLOnEL-NCBI-Disease)
 - [bc5cdr-disease](https://huggingface.co/TCMLLM/CLOnEL-BC5CDR-Disease)
 - [bc5cdr-chemical](https://huggingface.co/TCMLLM/CLOnEL-BC5CDR-Chemical)
