@@ -1,4 +1,3 @@
-
 <h1 align="center">CLOnEL</h1>
 
 <div align="center">
@@ -37,21 +36,30 @@ We propose Ontology-enhanced Entity Linking (OnEL), a novel method that achieves
     - Used for SYMPEL
 
 
-## Train
+## OnEL
 
+### Train
 ~~~bash
 cd OnEL
 bash scripts/train/ncbi_disease.sh
 ~~~
-    
-    
+
 ## Evaluation
 
 ~~~bash
 cd OnEL
 bash scripts/eval/ncbi_disease.sh
 ~~~    
-    
+
+
+## CLOnEL
+
+### Train & evaluation
+~~~bash
+cd CLOnEL
+bash scripts/naive.sh
+~~~ 
+
 ## Results 
 
 ### Trained models
