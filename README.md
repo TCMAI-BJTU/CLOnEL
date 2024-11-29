@@ -6,6 +6,16 @@
 
 We propose Ontology-enhanced Entity Linking (OnEL), a novel method that achieves state-of-the-art performance in BioEL by leveraging hierarchical ontology structures for enhanced entity representation. Additionally, we introduce CLOnEL, a framework that leverages continual learning (CL) to validate the effectiveness and broad potential of CL in the BioEL domain. 
 
+## Requirements
+
+~~~bash
+$ conda create -n CLOnEL python=3.9
+$ conda activate CLOnEL
+$ pip install numpy tqdm pandas openpyxl sentence-transformers
+$ pip install torch==2.1.1
+$ pip install transformers==4.41.2
+~~~
+
 ## Datasets
 
 ### Biomedical Entity Linking (Base)
